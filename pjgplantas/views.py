@@ -17,9 +17,6 @@ class PlantaViewSet(ModelViewSet):
     queryset = Planta.objects.all()
     serializer_class = PlantaSerializer
 
-class PagamentoViewSet(ModelViewSet):
-    queryset = Pagamento.objects.all()
-    serializer_class = PagamentoSerializer
 
 class BoletoViewSet(ModelViewSet):
     queryset = Boleto.objects.all()
